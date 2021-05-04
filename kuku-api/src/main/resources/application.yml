@@ -1,0 +1,23 @@
+server:
+  port: 5000
+
+spring:
+  profiles:
+    active: local
+  servlet:
+    multipart:
+      enabled: true
+
+
+klaytn:
+  api:
+    access-key:
+    secret-key:
+    authorization:
+    chain-id:
+  endpoint: https://kaikas.baobab.klaytn.net:8651
+#  endpoint: https://kaikas.cyper.klaytn.net:8651
+
+ipfs:
+  host:
+  port:
