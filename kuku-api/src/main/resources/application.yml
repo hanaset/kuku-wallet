@@ -3,20 +3,25 @@ server:
 
 spring:
   profiles:
-    active: local
+    active: develop
   servlet:
     multipart:
       enabled: true
+  jmx:
+    enabled: true
+  pid:
+    file: logs/kuku-api.pid
 
 
 klaytn:
-  api:
-    access-key:
-    secret-key:
-    authorization:
-    chain-id:
-  endpoint: https://kaikas.baobab.klaytn.net:8651
-#  endpoint: https://kaikas.cyper.klaytn.net:8651
+#  endpoint: https://kaikas.baobab.klaytn.net:8651
+#  chain: TEST
+  chain: MAIN
+  endpoint: https://kaikas.cypress.klaytn.net:8651/
+
+ethereum:
+  endpoint: http://localhost:8545
+  chain: MAIN
 
 ipfs:
   host:

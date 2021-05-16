@@ -27,7 +27,7 @@ class UserTokenService(
             .mapNotNull { tokenRepository.findByIdOrNull(it.tokenId) }
     }
 
-    fun saveToken(accountAddress: String, tokenName: String, tokenSymbol: String, tokenAddress: String, network: Network, platform: Platform) {
+    fun saveToken(accountAddress: String, tokenName: String, tokenSymbol: String, tokenDecimal: Long, tokenAddress: String, network: Network, platform: Platform) {
         val account = accountRepository.findByAddressAndNetworkAndPlatform(accountAddress, network, platform)
                 ?: throw BadRequestAccountException()
         val token = tokenRepository.findByAddressAndNetworkAndPlatform(tokenAddress, network, platform)
@@ -36,7 +36,8 @@ class UserTokenService(
                     network = network,
                     name = tokenName,
                     address = tokenAddress,
-                    symbol = tokenSymbol
+                    symbol = tokenSymbol,
+                    decimals = tokenDecimal
                 )
 
         val tokenId = if(token.id == -1L) tokenRepository.save(token).id else token.id

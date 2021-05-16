@@ -16,7 +16,8 @@ dependencies {
 		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
 	}
 
-	implementation("commons-codec:commons-codec:1.15")
+	implementation("org.web3j:core:4.8.4")
+	implementation("org.web3j:utils:4.8.4")
 
 	implementation("com.klaytn.caver:core:1.6.0")
 	implementation("com.google.code.gson:gson:2.8.5")

@@ -1,0 +1,4 @@
+2021-05-08 18:13:36.804 INFO [           main] [c.h.k.a.KukuApiApplicationKt] logStarting (55): Starting KukuApiApplicationKt on Luke.local with PID 9337 (/Users/luke/worksapce/kuku/kuku-api/build/classes/kotlin/main started by luke in /Users/luke/worksapce/kuku)
+2021-05-08 18:13:36.807 INFO [           main] [c.h.k.a.KukuApiApplicationKt] logStartupProfileInfo (655): The following profiles are active: develop
+2021-05-08 18:13:56.073 INFO [           main] [c.h.k.a.KukuApiApplicationKt] logStarted (61): Started KukuApiApplicationKt in 39.784 seconds (JVM running for 45.423)
+2021-05-08 18:13:56.076 INFO [           main] [c.h.k.a.KukuApiApplication] onApplicationEvent (36): kuku-api applicationReady, profiles = [develop]

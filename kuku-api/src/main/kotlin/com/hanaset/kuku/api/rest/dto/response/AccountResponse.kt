@@ -25,7 +25,7 @@ data class HoldingContractInfo(
     val symbol: String,
     val address: String,
     val totalSupply: BigInteger,
-    val balance: Int,
+    val balance: Double,
     val tokens: List<TokenInfo>
 )
 

@@ -33,6 +33,8 @@ class TokenEntity(
 
     val name: String,
 
+    val decimals: Long,
+
     val address: String,
 
     @Column(name = "icon_url")

@@ -1,0 +1,43 @@
+2021-05-08 05:45:28.097 WARN [ool housekeeper] [c.z.h.p.HikariPool] run (787): hanaPool - Thread starvation or clock leap detected (housekeeper delta=7h31m8s587ms).
+2021-05-08 09:15:06.324 WARN [ool housekeeper] [c.z.h.p.HikariPool] run (787): hanaPool - Thread starvation or clock leap detected (housekeeper delta=3h29m38s204ms).
+2021-05-08 09:30:33.414 WARN [ool housekeeper] [c.z.h.p.HikariPool] run (787): hanaPool - Thread starvation or clock leap detected (housekeeper delta=15m27s157ms).
+2021-05-08 17:58:25.517 WARN [ool housekeeper] [c.z.h.p.HikariPool] run (787): hanaPool - Thread starvation or clock leap detected (housekeeper delta=8h27m52s103ms).
+2021-05-08 17:59:19.093 WARN [ool housekeeper] [c.z.h.p.HikariPool] run (787): hanaPool - Thread starvation or clock leap detected (housekeeper delta=53s576ms).
+2021-05-08 18:13:26.836 WARN [kground-preinit] [o.s.h.c.j.Jackson2ObjectMapperBuilder] warn (127): For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-05-08 18:13:31.798 WARN [           main] [o.s.b.StartupInfoLogger] appendOn (116): InetAddress.getLocalHost().getHostName() took 5001 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+2021-05-08 18:13:36.804 INFO [           main] [c.h.k.a.KukuApiApplicationKt] logStarting (55): Starting KukuApiApplicationKt on Luke.local with PID 9337 (/Users/luke/worksapce/kuku/kuku-api/build/classes/kotlin/main started by luke in /Users/luke/worksapce/kuku)
+2021-05-08 18:13:36.807 INFO [           main] [c.h.k.a.KukuApiApplicationKt] logStartupProfileInfo (655): The following profiles are active: develop
+2021-05-08 18:13:42.443 INFO [           main] [o.s.d.r.c.RepositoryConfigurationDelegate] registerRepositoriesIn (127): Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-05-08 18:13:42.518 INFO [           main] [o.s.d.r.c.RepositoryConfigurationDelegate] registerRepositoriesIn (187): Finished Spring Data repository scanning in 62ms. Found 3 JPA repository interfaces.
+2021-05-08 18:13:43.449 INFO [           main] [o.s.b.w.e.t.TomcatWebServer] initialize (108): Tomcat initialized with port(s): 5000 (http)
+2021-05-08 18:13:43.493 INFO [           main] [o.a.c.h.Http11NioProtocol] log (173): Initializing ProtocolHandler ["http-nio-5000"]
+2021-05-08 18:13:43.494 INFO [           main] [o.a.c.c.StandardService] log (173): Starting service [Tomcat]
+2021-05-08 18:13:43.494 INFO [           main] [o.a.c.c.StandardEngine] log (173): Starting Servlet engine: [Apache Tomcat/9.0.38]
+2021-05-08 18:13:43.582 INFO [           main] [o.a.c.c.C.[.[.[/]] log (173): Initializing Spring embedded WebApplicationContext
+2021-05-08 18:13:43.582 INFO [           main] [o.s.b.w.s.c.ServletWebServerApplicationContext] prepareWebApplicationContext (285): Root WebApplicationContext: initialization completed in 1721 ms
+2021-05-08 18:13:43.697 INFO [           main] [c.z.h.HikariDataSource] <init> (80): hanaPool - Starting...
+2021-05-08 18:13:53.352 INFO [           main] [c.z.h.HikariDataSource] <init> (82): hanaPool - Start completed.
+2021-05-08 18:13:53.557 INFO [           main] [o.h.Version] logVersion (44): HHH000412: Hibernate ORM core version 5.4.21.Final
+2021-05-08 18:13:53.680 INFO [           main] [o.h.a.c.Version] <clinit> (49): HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-05-08 18:13:53.824 INFO [           main] [o.h.d.Dialect] <init> (170): HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-05-08 18:13:54.342 INFO [           main] [o.h.e.t.j.p.i.JtaPlatformInitiator] initiateService (52): HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-08 18:13:54.350 INFO [           main] [o.s.o.j.LocalContainerEntityManagerFactoryBean] buildNativeEntityManagerFactory (416): Initialized JPA EntityManagerFactory for persistence unit 'kukuPersistenceUnit'
+2021-05-08 18:13:55.602 INFO [           main] [s.d.s.w.PropertySourcedRequestMappingHandlerMapping] initHandlerMethods (69): Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-08 18:13:55.709 INFO [           main] [o.s.s.c.ThreadPoolTaskExecutor] initialize (181): Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-08 18:13:55.876 INFO [           main] [o.a.c.h.Http11NioProtocol] log (173): Starting ProtocolHandler ["http-nio-5000"]
+2021-05-08 18:13:55.908 INFO [           main] [o.s.b.w.e.t.TomcatWebServer] start (220): Tomcat started on port(s): 5000 (http) with context path ''
+2021-05-08 18:13:55.909 INFO [           main] [s.d.s.w.p.DocumentationPluginsBootstrapper] start (160): Context refreshed
+2021-05-08 18:13:55.922 INFO [           main] [s.d.s.w.p.DocumentationPluginsBootstrapper] start (163): Found 1 custom documentation plugin(s)
+2021-05-08 18:13:55.965 INFO [           main] [s.d.s.w.s.ApiListingReferenceScanner] scan (41): Scanning for api listing references
+2021-05-08 18:13:56.043 INFO [           main] [s.d.s.w.r.o.CachingOperationNameGenerator] startingWith (40): Generating unique operation named: addAccountUsingPOST_1
+2021-05-08 18:13:56.045 INFO [           main] [s.d.s.w.r.o.CachingOperationNameGenerator] startingWith (40): Generating unique operation named: addContractByOwnerUsingPOST_1
+2021-05-08 18:13:56.047 INFO [           main] [s.d.s.w.r.o.CachingOperationNameGenerator] startingWith (40): Generating unique operation named: getAccountUsingGET_1
+2021-05-08 18:13:56.049 INFO [           main] [s.d.s.w.r.o.CachingOperationNameGenerator] startingWith (40): Generating unique operation named: getContractInfoUsingGET_1
+2021-05-08 18:13:56.051 INFO [           main] [s.d.s.w.r.o.CachingOperationNameGenerator] startingWith (40): Generating unique operation named: testUsingGET_1
+2021-05-08 18:13:56.073 INFO [           main] [c.h.k.a.KukuApiApplicationKt] logStarted (61): Started KukuApiApplicationKt in 39.784 seconds (JVM running for 45.423)
+2021-05-08 18:13:56.076 INFO [           main] [c.h.k.a.KukuApiApplication] onApplicationEvent (36): kuku-api applicationReady, profiles = [develop]
+2021-05-08 18:14:23.676 INFO [nio-5000-exec-1] [o.a.c.c.C.[.[.[/]] log (173): Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-08 18:14:23.676 INFO [nio-5000-exec-1] [o.s.w.s.DispatcherServlet] initServletBean (525): Initializing Servlet 'dispatcherServlet'
+2021-05-08 18:14:23.684 INFO [nio-5000-exec-1] [o.s.w.s.DispatcherServlet] initServletBean (547): Completed initialization in 8 ms
+2021-05-08 18:29:51.713 WARN [ool housekeeper] [c.z.h.p.HikariPool] run (779): hanaPool - Retrograde clock change detected (housekeeper delta=28s143ms), soft-evicting connections from pool.
+2021-05-08 18:59:51.946 WARN [ool housekeeper] [c.z.h.p.HikariPool] run (779): hanaPool - Retrograde clock change detected (housekeeper delta=27s893ms), soft-evicting connections from pool.

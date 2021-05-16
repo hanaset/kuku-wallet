@@ -1,0 +1,3025 @@
+2021-05-07 16:04:34.491 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:05:17.085 DEBUG [io-5000-exec-10] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:05:17.114 DEBUG [io-5000-exec-10] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:05:17.134 DEBUG [io-5000-exec-10] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:05:17.182 DEBUG [io-5000-exec-10] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:19:34.664 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:20:13.840 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:21:33.895 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:24:23.103 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:24:24.621 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_0_,
+        accountent0_.address as address2_0_0_,
+        accountent0_.created_at as created_3_0_0_,
+        accountent0_.network as network4_0_0_,
+        accountent0_.platform as platform5_0_0_,
+        accountent0_.updated_at as updated_6_0_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.id=?
+2021-05-07 16:24:24.648 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        account
+        (address, created_at, network, platform, updated_at) 
+    values
+        (?, ?, ?, ?, ?)
+2021-05-07 16:24:31.993 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:24:32.016 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:24:32.036 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:26:22.701 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:26:22.738 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_,
+        tokenentit0_.address as address2_1_,
+        tokenentit0_.created_at as created_3_1_,
+        tokenentit0_.icon_url as icon_url4_1_,
+        tokenentit0_.name as name5_1_,
+        tokenentit0_.network as network6_1_,
+        tokenentit0_.platform as platform7_1_,
+        tokenentit0_.symbol as symbol8_1_,
+        tokenentit0_.updated_at as updated_9_1_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.address=? 
+        and tokenentit0_.network=? 
+        and tokenentit0_.platform=?
+2021-05-07 16:26:22.759 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:26:22.769 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        token
+        (address, created_at, icon_url, name, network, platform, symbol, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2021-05-07 16:26:22.810 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=? 
+        and usertokene0_.token_id=?
+2021-05-07 16:26:22.835 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_0_,
+        usertokene0_.account_id as account_2_2_0_,
+        usertokene0_.created_at as created_3_2_0_,
+        usertokene0_.token_id as token_id4_2_0_,
+        usertokene0_.updated_at as updated_5_2_0_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.id=?
+2021-05-07 16:26:22.843 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        user_token
+        (account_id, created_at, token_id, updated_at) 
+    values
+        (?, ?, ?, ?)
+2021-05-07 16:26:34.082 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:26:34.103 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_,
+        tokenentit0_.address as address2_1_,
+        tokenentit0_.created_at as created_3_1_,
+        tokenentit0_.icon_url as icon_url4_1_,
+        tokenentit0_.name as name5_1_,
+        tokenentit0_.network as network6_1_,
+        tokenentit0_.platform as platform7_1_,
+        tokenentit0_.symbol as symbol8_1_,
+        tokenentit0_.updated_at as updated_9_1_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.address=? 
+        and tokenentit0_.network=? 
+        and tokenentit0_.platform=?
+2021-05-07 16:26:34.121 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:26:34.130 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        token
+        (address, created_at, icon_url, name, network, platform, symbol, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+2021-05-07 16:26:34.171 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=? 
+        and usertokene0_.token_id=?
+2021-05-07 16:26:34.187 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_0_,
+        usertokene0_.account_id as account_2_2_0_,
+        usertokene0_.created_at as created_3_2_0_,
+        usertokene0_.token_id as token_id4_2_0_,
+        usertokene0_.updated_at as updated_5_2_0_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.id=?
+2021-05-07 16:26:34.196 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        user_token
+        (account_id, created_at, token_id, updated_at) 
+    values
+        (?, ?, ?, ?)
+2021-05-07 16:26:37.129 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:26:37.150 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:26:37.159 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:26:37.197 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:26:37.255 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:28:57.406 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:28:57.453 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:28:57.473 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:28:57.524 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:28:57.580 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:31:09.230 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:31:09.253 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:31:09.268 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:31:09.299 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:31:09.358 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:31:13.482 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:31:13.505 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:31:13.513 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:31:13.545 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:31:13.612 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:32:13.138 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:32:37.231 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:32:37.399 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:32:37.605 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:32:37.721 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:35:09.847 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:35:09.894 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:35:09.916 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:35:09.965 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:35:10.022 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:37:14.480 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:37:14.530 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:37:14.552 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:37:14.606 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:37:14.661 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:38:06.471 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:38:06.515 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:38:06.535 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:38:06.584 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:38:06.639 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:39:10.576 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:39:10.633 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:39:10.655 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:39:10.704 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:39:10.762 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:39:45.564 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:39:45.604 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:39:45.623 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:39:45.667 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:39:45.717 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:40:27.299 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:40:27.432 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_0_,
+        accountent0_.address as address2_0_0_,
+        accountent0_.created_at as created_3_0_0_,
+        accountent0_.network as network4_0_0_,
+        accountent0_.platform as platform5_0_0_,
+        accountent0_.updated_at as updated_6_0_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.id=?
+2021-05-07 16:40:27.449 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        account
+        (address, created_at, network, platform, updated_at) 
+    values
+        (?, ?, ?, ?, ?)
+2021-05-07 16:40:31.810 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:40:31.830 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:40:31.839 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:42:24.576 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:31.370 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:37.625 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:43.434 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:57.492 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:58.202 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:58.338 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:58.494 DEBUG [nio-5000-exec-8] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:58.655 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:58.772 DEBUG [io-5000-exec-10] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:58.897 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:59.020 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:59.169 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:59.314 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:42:59.458 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:43:42.535 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:43:52.965 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:43:53.624 DEBUG [nio-5000-exec-8] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:43:53.825 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:43:54.006 DEBUG [io-5000-exec-10] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:43:54.184 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:43:54.365 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:43:54.567 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:44:58.948 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:44:58.989 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:44:59.010 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:44:59.060 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:44:59.114 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:49:52.821 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:49:52.860 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 16:49:52.878 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 16:49:52.923 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 16:49:52.973 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.icon_url as icon_url4_1_0_,
+        tokenentit0_.name as name5_1_0_,
+        tokenentit0_.network as network6_1_0_,
+        tokenentit0_.platform as platform7_1_0_,
+        tokenentit0_.symbol as symbol8_1_0_,
+        tokenentit0_.updated_at as updated_9_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:04:09.966 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:04:10.010 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:04:10.031 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 17:04:10.080 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimal as decimal4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:04:10.134 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimal as decimal4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:04:32.442 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:04:32.471 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:04:32.479 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 17:04:32.506 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimal as decimal4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:04:32.567 DEBUG [nio-5000-exec-3] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimal as decimal4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:04:44.594 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:04:44.612 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:04:44.621 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 17:04:44.650 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimal as decimal4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:04:44.700 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimal as decimal4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:11:05.463 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:11:05.498 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_,
+        tokenentit0_.address as address2_1_,
+        tokenentit0_.created_at as created_3_1_,
+        tokenentit0_.decimal as decimal4_1_,
+        tokenentit0_.icon_url as icon_url5_1_,
+        tokenentit0_.name as name6_1_,
+        tokenentit0_.network as network7_1_,
+        tokenentit0_.platform as platform8_1_,
+        tokenentit0_.symbol as symbol9_1_,
+        tokenentit0_.updated_at as updated10_1_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.address=? 
+        and tokenentit0_.network=? 
+        and tokenentit0_.platform=?
+2021-05-07 17:11:05.532 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimal as decimal4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:11:05.547 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        token
+        (address, created_at, decimal, icon_url, name, network, platform, symbol, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-05-07 17:11:27.169 DEBUG [nio-5000-exec-8] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:11:27.192 DEBUG [nio-5000-exec-8] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_,
+        tokenentit0_.address as address2_1_,
+        tokenentit0_.created_at as created_3_1_,
+        tokenentit0_.decimal as decimal4_1_,
+        tokenentit0_.icon_url as icon_url5_1_,
+        tokenentit0_.name as name6_1_,
+        tokenentit0_.network as network7_1_,
+        tokenentit0_.platform as platform8_1_,
+        tokenentit0_.symbol as symbol9_1_,
+        tokenentit0_.updated_at as updated10_1_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.address=? 
+        and tokenentit0_.network=? 
+        and tokenentit0_.platform=?
+2021-05-07 17:11:27.211 DEBUG [nio-5000-exec-8] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimal as decimal4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:11:27.220 DEBUG [nio-5000-exec-8] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        token
+        (address, created_at, decimal, icon_url, name, network, platform, symbol, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-05-07 17:11:54.726 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:11:54.747 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_,
+        tokenentit0_.address as address2_1_,
+        tokenentit0_.created_at as created_3_1_,
+        tokenentit0_.decimal as decimal4_1_,
+        tokenentit0_.icon_url as icon_url5_1_,
+        tokenentit0_.name as name6_1_,
+        tokenentit0_.network as network7_1_,
+        tokenentit0_.platform as platform8_1_,
+        tokenentit0_.symbol as symbol9_1_,
+        tokenentit0_.updated_at as updated10_1_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.address=? 
+        and tokenentit0_.network=? 
+        and tokenentit0_.platform=?
+2021-05-07 17:11:54.764 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimal as decimal4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:11:54.773 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        token
+        (address, created_at, decimal, icon_url, name, network, platform, symbol, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-05-07 17:13:06.844 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:13:06.909 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_,
+        tokenentit0_.address as address2_1_,
+        tokenentit0_.created_at as created_3_1_,
+        tokenentit0_.decimal as decimal4_1_,
+        tokenentit0_.icon_url as icon_url5_1_,
+        tokenentit0_.name as name6_1_,
+        tokenentit0_.network as network7_1_,
+        tokenentit0_.platform as platform8_1_,
+        tokenentit0_.symbol as symbol9_1_,
+        tokenentit0_.updated_at as updated10_1_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.address=? 
+        and tokenentit0_.network=? 
+        and tokenentit0_.platform=?
+2021-05-07 17:13:06.958 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimal as decimal4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:13:06.979 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        token
+        (address, created_at, decimal, icon_url, name, network, platform, symbol, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-05-07 17:13:44.044 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:13:52.694 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_,
+        tokenentit0_.address as address2_1_,
+        tokenentit0_.created_at as created_3_1_,
+        tokenentit0_.decimal as decimal4_1_,
+        tokenentit0_.icon_url as icon_url5_1_,
+        tokenentit0_.name as name6_1_,
+        tokenentit0_.network as network7_1_,
+        tokenentit0_.platform as platform8_1_,
+        tokenentit0_.symbol as symbol9_1_,
+        tokenentit0_.updated_at as updated10_1_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.address=? 
+        and tokenentit0_.network=? 
+        and tokenentit0_.platform=?
+2021-05-07 17:14:08.166 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimal as decimal4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:14:08.182 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        token
+        (address, created_at, decimal, icon_url, name, network, platform, symbol, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-05-07 17:16:06.493 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:16:06.546 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_,
+        tokenentit0_.address as address2_1_,
+        tokenentit0_.created_at as created_3_1_,
+        tokenentit0_.decimal as decimal4_1_,
+        tokenentit0_.icon_url as icon_url5_1_,
+        tokenentit0_.name as name6_1_,
+        tokenentit0_.network as network7_1_,
+        tokenentit0_.platform as platform8_1_,
+        tokenentit0_.symbol as symbol9_1_,
+        tokenentit0_.updated_at as updated10_1_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.address=? 
+        and tokenentit0_.network=? 
+        and tokenentit0_.platform=?
+2021-05-07 17:16:06.592 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimal as decimal4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:16:06.607 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        token
+        (address, created_at, decimal, icon_url, name, network, platform, symbol, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-05-07 17:17:33.655 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:17:33.706 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_,
+        tokenentit0_.address as address2_1_,
+        tokenentit0_.created_at as created_3_1_,
+        tokenentit0_.decimals as decimals4_1_,
+        tokenentit0_.icon_url as icon_url5_1_,
+        tokenentit0_.name as name6_1_,
+        tokenentit0_.network as network7_1_,
+        tokenentit0_.platform as platform8_1_,
+        tokenentit0_.symbol as symbol9_1_,
+        tokenentit0_.updated_at as updated10_1_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.address=? 
+        and tokenentit0_.network=? 
+        and tokenentit0_.platform=?
+2021-05-07 17:17:33.746 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:17:33.760 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        token
+        (address, created_at, decimals, icon_url, name, network, platform, symbol, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-05-07 17:17:33.812 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=? 
+        and usertokene0_.token_id=?
+2021-05-07 17:17:33.829 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_0_,
+        usertokene0_.account_id as account_2_2_0_,
+        usertokene0_.created_at as created_3_2_0_,
+        usertokene0_.token_id as token_id4_2_0_,
+        usertokene0_.updated_at as updated_5_2_0_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.id=?
+2021-05-07 17:17:33.837 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        user_token
+        (account_id, created_at, token_id, updated_at) 
+    values
+        (?, ?, ?, ?)
+2021-05-07 17:17:38.350 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:17:51.333 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:17:51.359 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:17:51.374 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 17:17:51.411 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:17:51.466 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:17:51.519 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:19:37.884 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:19:37.932 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:19:37.953 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 17:19:38.009 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:19:38.065 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:19:38.116 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:24:46.487 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:24:46.536 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:24:46.556 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 17:24:46.608 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:24:46.662 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:24:46.713 DEBUG [nio-5000-exec-1] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:24:50.059 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:24:50.070 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:24:50.078 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 17:24:50.108 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:24:50.160 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:24:50.210 DEBUG [nio-5000-exec-2] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:39:02.966 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:39:03.012 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:39:03.032 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 17:39:03.085 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:39:03.136 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:39:03.183 DEBUG [nio-5000-exec-4] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:39:08.490 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:39:08.510 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:39:08.519 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 17:39:08.549 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:39:08.600 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:39:08.653 DEBUG [nio-5000-exec-5] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:39:30.884 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:39:30.917 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_,
+        tokenentit0_.address as address2_1_,
+        tokenentit0_.created_at as created_3_1_,
+        tokenentit0_.decimals as decimals4_1_,
+        tokenentit0_.icon_url as icon_url5_1_,
+        tokenentit0_.name as name6_1_,
+        tokenentit0_.network as network7_1_,
+        tokenentit0_.platform as platform8_1_,
+        tokenentit0_.symbol as symbol9_1_,
+        tokenentit0_.updated_at as updated10_1_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.address=? 
+        and tokenentit0_.network=? 
+        and tokenentit0_.platform=?
+2021-05-07 17:39:30.946 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:39:30.962 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        token
+        (address, created_at, decimals, icon_url, name, network, platform, symbol, updated_at) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2021-05-07 17:39:31.010 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=? 
+        and usertokene0_.token_id=?
+2021-05-07 17:39:31.029 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_0_,
+        usertokene0_.account_id as account_2_2_0_,
+        usertokene0_.created_at as created_3_2_0_,
+        usertokene0_.token_id as token_id4_2_0_,
+        usertokene0_.updated_at as updated_5_2_0_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.id=?
+2021-05-07 17:39:31.037 DEBUG [nio-5000-exec-6] [o.h.SQL] logStatement (128): 
+    insert 
+    into
+        user_token
+        (account_id, created_at, token_id, updated_at) 
+    values
+        (?, ?, ?, ?)
+2021-05-07 17:39:35.972 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:39:35.995 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:39:36.004 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 17:39:36.036 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:39:36.082 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:39:36.130 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:39:36.179 DEBUG [nio-5000-exec-7] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:41:15.052 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:41:15.071 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        accountent0_.id as id1_0_,
+        accountent0_.address as address2_0_,
+        accountent0_.created_at as created_3_0_,
+        accountent0_.network as network4_0_,
+        accountent0_.platform as platform5_0_,
+        accountent0_.updated_at as updated_6_0_ 
+    from
+        account accountent0_ 
+    where
+        accountent0_.address=? 
+        and accountent0_.network=? 
+        and accountent0_.platform=?
+2021-05-07 17:41:15.079 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        usertokene0_.id as id1_2_,
+        usertokene0_.account_id as account_2_2_,
+        usertokene0_.created_at as created_3_2_,
+        usertokene0_.token_id as token_id4_2_,
+        usertokene0_.updated_at as updated_5_2_ 
+    from
+        user_token usertokene0_ 
+    where
+        usertokene0_.account_id=?
+2021-05-07 17:41:15.111 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:41:15.159 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:41:15.210 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
+2021-05-07 17:41:15.258 DEBUG [nio-5000-exec-9] [o.h.SQL] logStatement (128): 
+    select
+        tokenentit0_.id as id1_1_0_,
+        tokenentit0_.address as address2_1_0_,
+        tokenentit0_.created_at as created_3_1_0_,
+        tokenentit0_.decimals as decimals4_1_0_,
+        tokenentit0_.icon_url as icon_url5_1_0_,
+        tokenentit0_.name as name6_1_0_,
+        tokenentit0_.network as network7_1_0_,
+        tokenentit0_.platform as platform8_1_0_,
+        tokenentit0_.symbol as symbol9_1_0_,
+        tokenentit0_.updated_at as updated10_1_0_ 
+    from
+        token tokenentit0_ 
+    where
+        tokenentit0_.id=?
